@@ -8,21 +8,17 @@
     <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
-<nav id="page-nav">
-    <div class="container" id="nav-row">
-        <a th:href="@{/}" id="logo">Pizza Market</a>
-        <a class="nav-item" href="">Menu</a>
-        <a class="nav-item" href="">Dostawa</a>
-        <a class="nav-item" href="">Resto</a>
-    </div>
-</nav>
+<nav th:replace="~{fragments/navigation :: nav}"></nav>
 <section id="home-page-section">
     <div class="container">
         <img th:src="@{/img/hero-home.jpg}" alt="Pizza" style="width: 100%; height: 300px; object-fit: cover">
     </div>
     <div style="text-align: center">
         <h2 style="font-size: 2em">Pizza neapolitańska</h2>
-        <p style="font-weight: 200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid architecto asperiores cum earum eligendi facere laboriosam nemo nesciunt omnis optio pariatur placeat porro, quam quasi similique suscipit veritatis? Amet commodi consectetur dignissimos, eius fuga, laborum necessitatibus numquam, odio officia omnis porro reiciendis repellendus repudiandae sed sequi sit veniam voluptates?</p>
+        <p style="font-weight: 200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid architecto
+            asperiores cum earum eligendi facere laboriosam nemo nesciunt omnis optio pariatur placeat porro, quam quasi
+            similique suscipit veritatis? Amet commodi consectetur dignissimos, eius fuga, laborum necessitatibus
+            numquam, odio officia omnis porro reiciendis repellendus repudiandae sed sequi sit veniam voluptates?</p>
     </div>
     <div style="display: flex; flex-direction: row; justify-content: center">
         <a class="btn" href="">Sprawdź nasze menu</a>
