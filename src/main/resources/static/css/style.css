@@ -93,3 +93,20 @@ a {
     flex-direction: row;
     margin: 10px 0;
 }
+
+.review-form input  {
+    margin: 10px 0;
+}
+
+.review-form label  {
+    margin: 20px 0;
+}
+
+.review-list {
+    width: 100%;
+}
+
+.review-list p {
+    font-size: 0.8em;
+    font-weight: normal;
+}
